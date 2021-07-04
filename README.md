@@ -22,3 +22,7 @@ Name transactions and set their amounts. Add funds or subtract funds and see the
 MIT
 
 ## Screenshot
+![appscreenshot](assets/img/screenshot.png)
+
+## Heroku url
+https://lovely-gunnison-29912.herokuapp.com/
