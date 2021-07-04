@@ -1,5 +1,3 @@
-const { response } = require("express");
-
 // create variable to hold db connection
 let db;
 
@@ -51,7 +49,7 @@ function uploadTransaction() {
 
   getAll.onsuccess = function() {
     if (getAll.result.length > 0) {
-      fetch('/api.js', {  //is this the right route?
+      fetch('/api/transaction/bulk', {  //is this the right route?
         method: 'POST',
         body: JSON.stringify(getAll.result),
         headers: {
